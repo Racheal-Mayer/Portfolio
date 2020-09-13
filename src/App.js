@@ -13,11 +13,11 @@ import gith from './components/gith.png';
 function App() {
   return (
     <div className="container">
-      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar navbar-expand-sm navbar-light bg-dark">
+{/* <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="navbarNav">
+</button> */}
+<div class="navbar-collapse" id="navbarNav">
 <ul class="navbar-nav">
     <li class="nav-item active">
     <Link class="link nav-link text-light" to="/">Home <span class="sr-only">(current)</span></Link>
@@ -42,9 +42,11 @@ function App() {
       </Router>
       <div className="footer text-light">
       <h2 className="foot">Looking for a full stack web developer? <a href="mailto:rachealynn@outlook.com" className="main-btn email-lnk">Get in touch!</a></h2>
+      <div className="bottom">
         <a href="https://github.com/Racheal-Mayer" className="main-btn email-lnk"><img src={gith} alt="" className="icon1"/> </a>
         <a href="https://www.linkedin.com/in/racheal-mayer/" className="main-btn email-lnk"><img src={lin} alt="" className="icon"/> </a>
-    <a href="https://www.dropbox.com/s/f4lt0l3k3qeqg9q/Resume2.0.pdf?dl=0"><img src={resume} alt="" className="icon"/></a>
+    <a href="https://www.dropbox.com/s/6mt1jy8aptp5ofy/Racheal%20Mayer.docx?dl=0"><img src={resume} alt="" className="icon"/></a>
+    </div>
     </div>
 </div>
   );

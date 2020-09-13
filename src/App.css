@@ -4,8 +4,8 @@
     border-radius: 10px;
 }
 .icon{
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 50px;
     border: 1px solid white;
     background: white;
     border-radius: 15px;
@@ -14,8 +14,8 @@
     font-size: 20px;
 }
 .icon1{
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 50px;
     margin-left: 40%;
     border: 1px solid white;
     background: white;
@@ -116,4 +116,7 @@ li{
 .footer{
     padding: 10px;
     background: #202327;
+    }
+.bottom{
+    margin-left: 20px;
 }
