@@ -38,7 +38,8 @@ function App() {
         <Project path="/projects" />
       </Router>
       <div className="footer text-light">
-      <h2 className="foot">Looking for a full stack web developer? <a href="mailto:rachealynn@outlook.com" className="main-btn email-lnk">Get in touch!</a></h2>
+      <h2 className="foot">Looking for a full stack web developer?
+      <a href="mailto:rachealynn@outlook.com" className="main-btn email-lnk">Get in touch!</a></h2>
       <div className="bottom">
         <a href="https://github.com/Racheal-Mayer" className="main-btn email-lnk"><img src={gith} alt="" className="icon1"/> </a>
         <a href="https://www.linkedin.com/in/racheal-mayer/" className="main-btn email-lnk"><img src={lin} alt="" className="icon"/> </a>

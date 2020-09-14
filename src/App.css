@@ -16,7 +16,7 @@
 .icon1{
     width: 60px;
     height: 50px;
-    margin-left: 40%;
+    margin-left: 20%;
     border: 1px solid white;
     background: white;
     border-radius: 15px;
@@ -118,5 +118,5 @@ li{
     background: #202327;
     }
 .bottom{
-    margin-left: 20px;
+    margin-left: 10px;
 }
